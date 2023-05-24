@@ -1,5 +1,6 @@
 import qrcode 
 
-img = qrcode.make('https://youtube.com')
-img.save('qrimg1.png')
-img.show('qrimg1.png')
+url = 'https://youtube.com'
+img = qrcode.make(url)
+img.save('qrimg3.png')
+img.show('qrimg3.png')
